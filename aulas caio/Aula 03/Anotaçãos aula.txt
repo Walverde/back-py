@@ -1,0 +1,42 @@
+Pré instalação====================
+
+
+vue create my-app 
+	> Escolher instalação manual e selecionar o modo Router. 
+cd my-app 
+
+vue add vuetify
+
+npm install material-design-icons-iconfont -D
+
+npm install @fortawesome/fontawesome-free -D
+
+code .
+
+
+
+
+npm i vue-google-charts
+
+npm install -g @vue/cli
+
+npm install node
+
+vue add router
+
+====================================
+
+
+Instalar o vue create <nomedoprojeto>
+
+instalar o vuetify
+
+cmd> vuetify
+
+npm run serve
+
+vue add router
+bluex 
+
+
+apex chart
