@@ -1,0 +1,6 @@
+const path = require('path');
+
+modules.exports={
+    config: path.resolve(__dirname, 'confi','confisql.js'),
+    'migrations-path': path.resolve(__dirname, 'confi','db','migrations'),
+};

@@ -1,0 +1,51 @@
+<template>
+<div class="cadastrar">
+    <v-container>
+        <v-row justify="center">
+            <v-col cols="12" sm="10" md="8" lg="6">
+            <v-card ref="form">
+                <v-card-title>
+                    Tela de cadastro
+                </v-card-title>
+            </v-card>
+            </v-col>
+        </v-row>
+    </v-container>
+    <v-container >
+        <v-row justify="center">
+            <v-col cols="12" sm="10" md="8" lg="6">
+            <v-card>
+                <v-card-title>Inserir novo usuário</v-card-title>
+                        <!-- <v-col cols="12" sm="6"> -->
+                        <v-text-field
+                            v-model="last"
+                            label="Usuário"
+                            hint="usuario@controlengenharia.com.br"
+                            name="input-mail"
+                            outlined
+                        ></v-text-field>
+                        <!-- </v-col> -->
+                        
+                        <v-col cols="16" sm="17">
+                        <v-text-field
+                            v-model="password"
+                            :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
+                            :rules="[rules.required, rules.min]"
+                            :type="show1 ? 'text' : 'password'"
+                            name="input-senha"
+                            label="Senha"
+                            hint="8 digitos, no minimo"
+                            outlined
+                            @click:append="show1 = !show1"
+                        ></v-text-field>
+                        </v-col>
+                        <v-text>"pew" input-mail</v-text>
+                        <v-row justify="center" ><v-btn >Inserir</v-btn></v-row>
+            
+                
+            </v-card>
+            </v-col>
+        </v-row>
+    </v-container>
+</div>    
+</template>
