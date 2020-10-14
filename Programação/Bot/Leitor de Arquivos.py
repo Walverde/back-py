@@ -1,0 +1,13 @@
+file = open ('abcd.txt')
+file.read('abcd.txt')
+file.seek(0,0)
+print(file.readline(),end='')
+print(file.readline(),end='')
+print(file.readline(),end='')
+print('#############')
+print(file.readlines())
+print('#############')
+file.seek(0,0)
+for Linha in file.readlines():
+    print(Linha)
+file.close()
