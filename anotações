@@ -1,0 +1,15 @@
+CRiandor prjeto com npm 
+→ npm init // vai perguntar a versão e nome do projeto. 
+
+
+
+
+-------------------------------Git--------------------------------------
+//Configuração de usuario: 
+→ git config --global user.name "Nome"
+
+//configuração de Email
+→ git config --global user.email "email"
+
+//configuração de editor padrão
+→ git config --global core.editor "diretorio/program.exe"

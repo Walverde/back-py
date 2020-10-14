@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <title>Calculara</title>
+    
+    
+    <script>
+        let input;
+        let result;
+
+        function bunttonClick(value){
+            input.value += value;   
+        }
+
+        function calc(){
+            try{
+                let value =eval(input.value);
+                if(typeof value !== "number"){
+                    throw new erro();
+                }
+                result.style.color = "black";
+                result.innerText = eval(input.value)
+            }catch(e){
+                result.innerText="Favor digitar expressão valida"
+            }
+            result.innerText = eval(input.value);
+        }
+
+        window.onload=function(){
+            input = document.getElementById("input");
+            result = document.getElementById("result");
+        }
+
+    </script>
+</head>
+<style> 
+    body{
+        background-color: lightsalmon;
+    }
+    
+    h1{
+        margin: auto;
+        max-width: 500px;
+        text-align: center;
+
+    }
+
+    .card{
+        margin: auto;
+        max-width: 500px;
+        text-align: center;
+        background-color: white;
+        padding: 5px;
+    }
+    input{
+        width: 100%;
+    }
+
+    .card-buntton-3{
+        margin: auto;
+        max-width: 200px;
+        Display: block;
+        margin-bottom: 5px;
+        margin-top: 5px; 
+    }
+
+
+
+</style>
+<body>
+    <h1>Calculador Online</h1>
+
+<div class="card">
+
+    <input id="input"></input>
+
+    <div class="card-buntton-3">
+       
+        <button onclick="bunttonClick(1)">1</button>
+        <button onclick="bunttonClick(2)">2</button>
+        <button onclick="bunttonClick(3)">3</button>
+    </div>
+    <div class="card-buntton-3">
+
+        <button onclick="bunttonClick(4)">4</button>
+        <button onclick="bunttonClick(5)">5</button>
+        <button onclick="bunttonClick(6)">6</button>
+    </div>    
+    <div class="card-buntton-3">
+        <button onclick="bunttonClick(7)">7</button>
+        <button onclick="bunttonClick(8)">8</button>
+        <button onclick="bunttonClick(9)">9</button>
+    </div>
+    <div class="card-buntton-3">
+        <button onclick="bunttonClick(0)">0</button>
+    </div>
+    <div class="card-buntton-3">
+        <button onclick="bunttonClick('+')">+</button>
+        <button onclick="bunttonClick('-')">-</button>
+    </div>
+    <div class="card-buntton-3">
+        <button onclick="bunttonClick('*')">*</button>
+        <button onclick="bunttonClick('/')">/</button>
+        <button onclick="calc()">=</button>
+    </div>
+    <label id="result"></label>
+
+</div>
+</body>
+</html>

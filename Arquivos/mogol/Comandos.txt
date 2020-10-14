@@ -1,0 +1,14 @@
+
+use ***banco#de#dados***
+
+db.dropDatabase()
+
+db.***banco de dados***.find()
+
+show dbs
+show collections
+
+//Um DBS
+db.stags.insert ({Parametro:"variavel",Parametro:"variavel"})
+//Varios DBS
+db.stags.insertMany ([{Nome:"Sandro", Numero: "41626262662",Matricula:"2132132132", Cidade:"Colombo"},{Nome:"Iago", Numero: "41626262662",Matricula:"2132132132", Cidade:"Araucaria"},{Nome:"Wal", Numero: "41626262662",Matricula:"2132132132", Cidade:"Pinhais"}]);

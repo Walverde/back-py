@@ -1,0 +1,21 @@
+https://youtu.be/Fbu7z5dXcRs
+
+
+
+// Esse cara, configura um arquivo de configuração e o importa no Index.js
+
+
+// Exemplo. 
+
+
+module.exports = { // variavel para exportar esse modulo. 
+    dialect: 'postagres',
+    host: 'localhost',
+    username: 'nome_de_usuario',
+    password: 'senha_de_acesso_ao_banco',
+    database: 'nome_do_banco_de_dados',
+    define:{
+        timestamps: true, // createdat e updatedet. Indica quando foi criado a atualizado. 
+        underscored: true, // ira colocar todas as os espaços com _ (Formato snaked case)
+    },
+};
