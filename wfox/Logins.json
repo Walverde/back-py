@@ -1,0 +1,25 @@
+{
+  "Credenciais":{
+    "Gamer":{
+      "email.1":"g.amermellok@gmail.com",
+      "email.2":"ga.mermellok@gmail.com",
+      "email.3":"gam.ermellok@gmail.com",
+      "email.4":"gamer.mellok@gmail.com"
+    },
+    "senhas":{
+      "s2":"2468101214",
+      "s3":"369121518",
+      "s5":"5101520253035"
+    },
+    "walgreen.melo":{
+      "email.1":"sdfsddfsfsdsfd",
+      "senha":"sfdsfdsfdsfdsfd"
+    }
+  },
+  "classes":{
+    "bike":{
+      "pssw":"",
+      "user":"walgreen.melo@gmail.com"
+    }
+  }
+}
