@@ -1,0 +1,13 @@
+Instalar o vue create <nomedoprojeto>
+
+instalar o vuetify
+
+cmd> vuetify
+
+npm run serve
+
+vue add router
+bluex 
+
+
+apex chart
