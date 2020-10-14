@@ -1,0 +1,14 @@
+Reunião 19/08/2020
+
+Assunto abordados: - 
+
+- Como mensurar a aqualidade dos dados que estamos adquirindo como os sensores.
+- Iago: verificar paramentros de calibração da tensão Emonlib.  
+- Emonlib não esta funcionando quando é nescessario usar a função de envio via Mqtt.
+- Separar nucleos para gestão unitaria do Mqtt e interrupção. 
+- Verificar Sistema ESP RTOS
+- 
+-    
+
+
+Apresentação Couty. 
