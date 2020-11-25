@@ -1,0 +1,8 @@
+Electronjs
+
+Native Mobile 
+
+Docker, heroku, "Para fazer deploy" 
+socket
+
+WebSocket (Tempo real) 
