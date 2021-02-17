@@ -13,3 +13,39 @@ CRiandor prjeto com npm
 
 //configuração de editor padrão
 → git config --global core.editor "diretorio/program.exe"
+
+
+-------------------------------Gerais------------------------------------
+
+lg: 
+	iv: Investimento
+	tt: Total apos venda
+	ac: Acrescimedo do fundo de investimento
+	ttl: total arrecadado com leilões 
+
+Calculo das pecas. 
+
+1- Bateria pm: 250 
+2- Bateria pm: 250
+3- Bateria pm: 250
+4- Radio fsgt3 pm: 250
+5- Bolha pm: 50
+6- Bolha pm: 50
+7- Bolha pm: 50
+8- jogo de rodas : 150
+9- Automodelo HSP : 280
+10- Combo : 250
+
+iv: 790 
+tt: 1830
+
+---------
+
+l1: (hsp) = 280
+l2: (sk450) = 175
+l3: (DroneFLK) = 110
+l4: (SWCH_Arduino) = 32
+l5: (Carregador) = 38
+
+ttl: 641
+ac: 187 (Para c/ hsp) 
